@@ -37,5 +37,6 @@ public class Main {
             if (ott2[x] % 2 != 0) {
                 System.out.print(ott2[x] + 1);
             } else System.out.print(ott2[x]);
+
     }
 }
