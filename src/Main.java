@@ -37,17 +37,17 @@ public class Main {
         System.out.println();
 
 
-        for (int i = (ott.length - 1); i >= 0; i--) {
+        for (int i = ott.length - 1; i >= 0; i--) {
             System.out.print(ott[i]);
         }
         System.out.println();
 
-        for (int i = (osn.length - 1); i >= 0; i--) {
+        for (int i = osn.length - 1; i >= 0; i--) {
             System.out.print(osn[i] + " ");
         }
         System.out.println();
 
-        for (int i = (ott2.length - 1); i >= 0; i--) {
+        for (int i = ott2.length - 1; i >= 0; i--) {
             System.out.print(ott2[i]);
         }
 
@@ -100,12 +100,12 @@ public class Main {
         System.out.println();
 
         double sum2 = sum;
-        double average = (sum2 / arr.length);
+        double average = sum2 / arr.length;
         System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
 
 
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = (reverseFullName.length - 1); i >= 0; i--)
+        for (int i = reverseFullName.length - 1; i >= 0; i--)
             System.out.print(reverseFullName[i]);
         System.out.println();
     }
